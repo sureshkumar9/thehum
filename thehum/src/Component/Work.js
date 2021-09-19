@@ -7,7 +7,7 @@ const Work = () => {
         {
             id: '1',
             tabTitle: "All",
-            tabContent: <div className="wrapper">
+            tabchangContent: <div className="wrapper">
                 <div className="graphicsdesign">
                     <img src="\img\ac.jpg" alt="web" />
                     <div className="viewimg">
