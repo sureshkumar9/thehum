@@ -5,7 +5,7 @@ import Tab from './Tabs';
 const About = () => {
     const data = [
         {id : '1',
-         tabTitle: "OOUR HISTORY",
+         tabTitle: "OUR HISTORY",
          tabContent:
          <div>
              <div className="process">
@@ -14,36 +14,34 @@ const About = () => {
            </div>
          </div>
          <div className="process">
-           <div className="content">
-               USER INTERFAACE
+           <div className="content-two">
+                WEB DESIGNING
            </div>
          </div>
          <div className="process">
-           <div className="content">
-               USER INTERFAACE
+           <div className="content-tree">
+             WORDPRESS
            </div>
          </div>
          <div className="process">
-           <div className="content">
-               USER INTERFAACE
+           <div className="content-four">
+               HTML, CSS
            </div>
          </div>
          <div className="process">
-           <div className="content">
-               USER INTERFAACE
+           <div className="content-five">
+               APP DESIGN
            </div>
          </div>
          </div>
-         
-         
         },
         {id : '2',
          tabTitle: "OUR BOIGRAPHY",
-         tabContent: '"This was the perfect way to equip our team with tools to overcome challenges of organizing in a decentralised and value-driven way. Rich and Nati guided the journey with commitment and positivity at every step and supported us with their vast experience and knowledge. The atmosphere of safety and trust they created was inspiring and set the tone for our follow-up plans.'
+         tabContent: <p className="biography">This was the perfect way to equip our team with tools to overcome challenges of organizing in a decentralised and value-driven way. Rich and Nati guided the journey with commitment and positivity at every step and supported us with their vast experience and knowledge. The atmosphere of safety and trust they created was inspiring and set the tone for our follow-up plans.</p>
         },
         {id : '3',
          tabTitle: "OUR SKILLS",
-         tabContent:<ul>
+         tabContent:<ul className="skill">
              <li>HTML</li>
              <li>CSS</li>
              <li>JS</li>

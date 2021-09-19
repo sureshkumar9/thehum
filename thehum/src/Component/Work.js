@@ -7,7 +7,15 @@ const Work = () => {
         {
             id: '1',
             tabTitle: "All",
-            tabContent: <div className="wrapper">              
+            tabContent: <div className="wrapper">
+                <div className="graphicsdesign">
+                    <img src="\img\ac.jpg" alt="web" />
+                    <div className="viewimg">
+                        <img src="\img\link.png" alt="icon" />
+                        <img src="\img\searchh.jpg" alt="icon" />
+                        <h4 className="about-image">Creative Design<span>Web Design</span></h4>
+                    </div>
+                </div>
             </div>
         },
         {
@@ -34,8 +42,8 @@ const Work = () => {
     return (
         <div className="work space">
             <div className="container">
-            <h2 className="main_heading">Our Amazing Work</h2>
-            <Tab data={data} />
+                <h2 className="main_heading">Our Amazing Work</h2>
+                <Tab data={data} />
             </div>
         </div>
     );
