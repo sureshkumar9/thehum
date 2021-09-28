@@ -17,7 +17,7 @@ const Cardone = () => {
                 <p className="card_txt">unlimited support</p>
             </div>
             <div className="card">
-                <img src="img\Forma 1@2x.png" alt="responsive all device " />
+                <img src="img\computer.png" alt="responsive all device " />
                 <p className="card_txt">responsive all device </p>
             </div>
         </div>

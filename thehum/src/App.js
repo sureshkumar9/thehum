@@ -1,7 +1,6 @@
 import React from "react";
 import './index.css';
 import Header from './Component/Header';
-// import Slider from './Component/Slider';
 import Cardone from './Component/Cardone';
 import Feature from "./Component/Feature";
 import About from "./Component/About";
@@ -13,12 +12,17 @@ import Cardtwo from "./Component/Cardtwo.js";
 import Pricetable from "./Component/Pricetable.js";
 import Team from "./Component/Team.js";
 import Form from "./Component/Form.js";
+import Theme from "./Component/Theme.js";
+import Footer from "./Component/Footer.js";
+import Slider from "./Component/Slider.js";
+import Slidertwo from "./Component/Slidertwo";
+import Copyright from "./Component/Copyright";
 
 function App() {
   return (
     <div className="App">
      <Header />
-     {/* <Slider/> */}
+     <Slider />
      <Cardone />
      <Feature />
      <About />
@@ -28,8 +32,12 @@ function App() {
      <News />
      <Cardtwo />
      <Pricetable />
+     <Slidertwo />
      <Team />
+     <Theme />
      <Form />
+     <Footer />
+     <Copyright />
     </div>
   );
 }

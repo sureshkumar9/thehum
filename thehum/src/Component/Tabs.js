@@ -17,6 +17,7 @@ const data = []
     return(
         <div className="tabs spaceone">
           <ul className="tabs-titles">
+            <div className="arrow"/>
             {listTitles}
           </ul>
           <div className="tab-content">
